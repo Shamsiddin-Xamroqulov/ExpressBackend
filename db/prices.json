@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "techId": 1,
+        "price": 50000
+    },
+    {
+        "id": 2,
+        "techId": 2,
+        "price": 100000
+    },
+    {
+        "id": 3,
+        "techId": 3,
+        "price": 80000
+    },
+    {
+        "id": 4,
+        "techId": 4,
+        "price": 300000
+    },
+    {
+        "id": 5,
+        "techId": 5,
+        "price": 1000000
+    }
+]

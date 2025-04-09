@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "clientId": 1,
+        "employeId": 2,
+        "techId": "Robbit",
+        "date": "2025 -04 -09",
+        "totalPrice": 0,
+        "status": 1,
+        "createdAt": "2025-04-09 18:24:06"
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "username": "Binali",
+        "email": "binali@gmail.com",
+        "phone": "+998932862926",
+        "password": "binali",
+        "createdAt": "2025-04-09 15:26:56",
+        "accCount": 0,
+        "updatedAt": "2025-04-09 17:17:32"
+    },
+    {
+        "id": 2,
+        "username": "shamsiddin",
+        "email": "xamroqulovshamsiddin@gmail.com",
+        "phone": "+998915351015",
+        "password": "shamsiddin07",
+        "createdAt": "2025-04-09 18:17:10",
+        "accCount": 2
+    }
+]
