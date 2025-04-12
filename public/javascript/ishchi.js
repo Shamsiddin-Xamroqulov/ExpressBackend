@@ -2,6 +2,8 @@ let names = document.getElementById("ishchiname");
 let nameL = window.localStorage.getItem("name") ? window.localStorage.getItem("name") : "";
 let role = localStorage.getItem("role") || "";
 let out = document.getElementById("out");
+let token = localStorage.getItem("token");
+if(!token) return window.location.href = "/";
 
 names.textContent = nameL ? nameL.at(0) : "E";
 

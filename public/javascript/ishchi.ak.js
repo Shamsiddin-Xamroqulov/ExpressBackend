@@ -1,6 +1,8 @@
 let names = document.getElementById("ishchiname");
 let nameL = window.localStorage.getItem("name") ? window.localStorage.getItem("name") : "";
 let role = localStorage.getItem("role") || "";
+let token = window.localStorage.getItem("token");
+if(!token) return window.location.href = "/";
 
 let profileForm = document.querySelector('.ishchi_form');
 let profileName = document.querySelector('.profile_name');
@@ -26,7 +28,6 @@ function fd() {
 fd();
 
 async function loadProfile() {
-    let token = window.localStorage.getItem("token");
     let userId = JSON.parse(atob(token.split('.')[1])).id;
     const req = await fetch(`http://localhost:4000/api/employes/${userId}`, {
         method: 'GET',

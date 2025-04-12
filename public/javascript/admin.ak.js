@@ -7,6 +7,8 @@ let adminEmail = document.querySelector('.adminEmail');
 let adminPassword = document.querySelector('.adminPassword');
 let AdToken = window.localStorage.getItem("token") || '';
 
+if(!AdToken) return window.location.href = "/";
+
 names.textContent = "A"
 
 function bs() {

@@ -3,6 +3,8 @@ let names = document.getElementById("myAction");
 let nameL = localStorage.getItem("name") || "";
 let temp = document.querySelector('.renTemp').content ;
 let bods = document.querySelector('.tBody') ;
+let token = localStorage.getItem("token") ? localStorage.getItem("token") : "";
+if(!token) return window.location.href = "/"
 
 names.textContent = "A";
 

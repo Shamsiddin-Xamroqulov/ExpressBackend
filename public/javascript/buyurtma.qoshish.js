@@ -3,6 +3,8 @@ const tovarSelect = document.getElementById("sel");
 const priceInput = document.getElementById("price");
 let priceData = [];
 
+if(!Token) return window.location.href = "/";
+
 async function getPrices() {
     try {
         const res = await fetch("http://localhost:4000/api/price", {

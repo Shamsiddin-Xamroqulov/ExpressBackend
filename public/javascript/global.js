@@ -2,6 +2,7 @@ const nameL = localStorage.getItem("name") || "";
 const role = localStorage.getItem("role") || "";
 const page = window.location.pathname;
 const acToken = localStorage.getItem("token") || "";
+if(!acToken) return window.location.href = "/";
 
 const tovarSelect = document.getElementById("sel");
 const employeSelect = document.getElementById("employe");
